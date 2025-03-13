@@ -28,7 +28,7 @@ def main():
     user_input = st.text_input("You:")
     if st.button("send"):
         chora_response = get_chora_response(user_input)
-        st.write("Chora:", chora_response)
+        st.write(chora_response)
 
 #when the user submits a messsage get the response from the model
     if user_input:
